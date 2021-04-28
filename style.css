@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    height: 100vh;
+    width: 100vw;
+    min-height: 100%;
+    background: #17202A;
+    font-family: 'Roboto', sans-serif;
+    }
+
+h1 {
+    text-align: center;
+    color: #e2e3e4;
+    font-weight: 400;
+    font-size: 5vh;
+    margin: 5vh auto;
+}
+
+
+form {
+    width: 50vw;
+    min-width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+    padding: 1vw;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+}
+
+hr {
+    position: relative;
+    top: -10%;
+}
+
+.user-card {
+    width: 30vw;
+    min-width: 300px;
+    height: 30vh;
+    min-height: 280px;
+    margin: 20vh auto 20vh;
+    background-color: #e2e3e4;
+    border-radius: 20px;
+}
+
+.user-card img {
+    display: inline-block;
+    
+    width: 30%;
+    height: auto;
+    -moz-border-radius : 50%;
+    -webkit-border-radius : 50%;
+    border-radius : 50%;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user-card h2 {
+    position: relative;
+    top: -10%;
+    width: fit-content;
+    margin: 0px auto 2vh;
+}
+
+.user-card p {
+    margin: 0px 20px 10px;
+}
+
+
+
+
+
+
+
+
+/* Couleurs  
+#17202a
+#343c45
+#51585f
+#6e747a
+#8b9095
+#a8abaf
+#c5c7ca
+#e2e3e4 */
